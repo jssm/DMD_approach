@@ -4,7 +4,7 @@ A new exploratory Data Mining methodology called Discriminative Meta-features Di
 
 ## Motivation and Main Objective
 
-The main objective was to design an exploratory approach that would allow to obtain discriminative, understandable and intuitive descriptions of medical concepts, which in this work have already been introduced as Meta-features. The necessity for \textbf{explainable models} in medicine is great since clinicians must be able to understand the reasoning behind a given model result or prediction before making a decision that can impact a patient's life. This type of models are also called "white-box" models, in contrast with "black-box" models (e.g. Artificial Neural Networks) whose internal decisions are very hard to interpret.
+The main objective was to design an exploratory approach that would allow to obtain discriminative, understandable and intuitive descriptions of medical concepts, which in this work have already been introduced as Meta-features. The necessity for explainable models in medicine is great since clinicians must be able to understand the reasoning behind a given model result or prediction before making a decision that can impact a patient's life. This type of models are also called "white-box" models, in contrast with "black-box" models (e.g. Artificial Neural Networks) whose internal decisions are very hard to interpret.
 
 ## General Layout
 To accomplish this goal, several Machine Learning and Data Mining techniques were combined. First, Pattern Mining-based Biclustering was run on discretized and class-labelled data to find discriminative data patterns in the form of Biclusters. Afterwards those Biclusters were further used in two distinct branches:
