@@ -1,0 +1,18 @@
+KNIME workflow dependencies:
+ 
+If some workflow node is not available, make sure the following packages below are installed:
+
+  KNIME Analytics Platform	3.7.1.v201901291056	org.knime.product.desktop	null
+  KNIME Data Generation	3.7.0.v201808081048	org.knime.features.datageneration.feature.group	KNIME AG, Zurich, Switzerland
+  KNIME Extension providing the Chromium Browser	70.0.3538.v201811081450	org.knime.features.ext.chromium.feature.group	KNIME AG, Zurich, Switzerland
+  KNIME HCS Tools	3.3.0.v201902130805	de.mpicbg.tds.knime.hcstools.feature.feature.group	Max Planck Institute of Molecular Cell Biology and Genetics (MPI-CBG)
+  KNIME Itemset Mining	3.7.0.v201808081048	org.knime.features.ext.itemset.feature.group	KNIME AG, Zurich, Switzerland
+  KNIME JavaScript Views	3.7.1.v201901281201	org.knime.features.js.views.feature.group	KNIME AG, Zurich, Switzerland
+  KNIME JFreeChart	3.7.0.v201808081048	org.knime.features.ext.jfreechart.feature.group	KNIME AG, Zurich, Switzerland
+  KNIME Python Integration	3.7.1.v201901281201	org.knime.features.python2.feature.group	KNIME AG, Zurich, Switzerland
+  KNIME Python Scripting extension	3.3.0.v201902130805	de.mpicbg.tds.knime.scripting.python.feature.feature.group	Max Planck Institute of Molecular Cell Biology and Genetics (MPI-CBG)
+  KNIME REST Client Extension	3.7.0.v201808081048	org.knime.features.rest.feature.group	KNIME AG, Zurich, Switzerland
+  KNIME ServerSpace	4.8.1.v201901281201	com.knime.features.explorer.serverspace.feature.group	KNIME AG, Zurich, Switzerland
+  KNIME Statistics Nodes (Labs)	3.7.2.v201904170931	org.knime.features.stats2.feature.group	KNIME AG, Zurich, Switzerland
+  KNIME SVG Support	3.7.0.v201809121043	org.knime.features.ext.svg.feature.group	KNIME AG, Zurich, Switzerland
+  KNIME Weka Data Mining Integration (3.7)	3.7.0.v201808130847	org.knime.features.ext.weka_3.7.feature.group	KNIME AG, Zurich, Switzerland

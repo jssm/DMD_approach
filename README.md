@@ -21,7 +21,7 @@ In order to clean, discretize and label the ONWebDUALS dataset for each Task dat
 An ARFF file is passed to the Java code acting as a wrapper for the BicPAMS API. This code was created to facilitate the definiton of batches of experiments (Experiment Sets): for each BicPAMS (Biclustering algorithm, https://web.ist.utl.pt/rmch/bicpams/) parameter an array of possible value is passed, and an experiment is created for each possible combination of parameter values.
 
 ## Biclustering-based Classification
-Random Forest (RF) classifiers from the Scikit-learn (https://scikit-learn.org/stable/) Python library were used to determine the most important features (or subsets of features). RFs were chosen for being robust against overfitting, fast to train and able to return Feature Importance metrics. Since our data had features with different numbers of categories, the Permutation Importance metric was used to prevent biases. The number of tree instances used in each RF classifier was 300, and the Permutation Importance values (using the MLxtend library, http://rasbt.github.io/mlxtend/) were calculating by performing the mean out of 10 runs. Additionally, a complementary Python library to Scikit-Learn called Multiscorer (https://github.com/StKyr/multiscorer) was used to easily compute multiple the 10-fold metrics for the Multiclass Classification case. 
+Random Forest (RF) classifiers from the Scikit-learn (https://scikit-learn.org/stable/) Python library were used to determine the most important features (or subsets of features). RFs were chosen for being robust against overfitting, fast to train and able to return Feature Importance metrics. Since our data had features with different numbers of categories, the Permutation Importance metric was used to prevent biases. The number of tree instances used in each RF classifier was 300, and the Permutation Importance values (using the MLxtend library, http://rasbt.github.io/mlxtend/) were calculating by performing the mean out of 10 runs. Additionally, Python libraries complementary to Scikit-Learn were used: the library Multiscorer (https://github.com/StKyr/multiscorer) was used to easily compute multiple the 10-fold metrics for the Multiclass Classification case; and imbalanced-learn (https://imbalanced-learn.org/en/stable/) was used to calculate the specificity metric. 
 
 ## Class Association Rules Mining
 The Java SPMF library (http://www.philippe-fournier-viger.com/spmf/index.php) was called from Python scripts to mine regular ARs from frequent closed itemsets. Given that this generated a great amount of rules the following steps were taken to ease interpretation:
@@ -31,5 +31,7 @@ The Java SPMF library (http://www.philippe-fournier-viger.com/spmf/index.php) wa
 * Removed redundant rules per class.
 
 ## Available code
-The code is divided by main layer of software or programming language on which they were created: KNIME, Java and Python.
-A more thorough code listing shall be provided (TODO)
+The code is divided by main layer of software or programming language on which they were created: KNIME, Java and Python. README and dependency files are available in each folder.
+
+## Input files
+The input data files are not provided since the dataset belongs to the consortium and therefore it is not public.

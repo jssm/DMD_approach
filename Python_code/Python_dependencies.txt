@@ -1,0 +1,11 @@
+Python code dependencies:
+	- scikit-learn library (at least v0.20.1)
+	- pandas library (at least v0.23.4)
+	- numpy library (at least v1.15.4)
+	- matplotlib library (at least v3.0.2)
+	- multiscorer library (included in the code, https://github.com/StKyr/multiscorer)
+	- mlxtend library (at least v.0.16.0)
+	- imbalanced-learn library (at least v0.5.0)
+	- SPMF jar (at least v2.38, http://www.philippe-fournier-viger.com/spmf/index.php)
+
+Note: if source is not indicated, they were installed through Anaconda.
