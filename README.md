@@ -37,4 +37,4 @@ The Java SPMF library (http://www.philippe-fournier-viger.com/spmf/index.php) wa
 The code is divided by main layer of software or programming language on which they were created: KNIME, Java and Python. README and dependency files are available in each folder.
 
 ## Input files
-The input data files are not provided since the dataset belongs to the consortium and therefore it is not public.
+The input data files are not provided since the dataset belongs to the ENCALS consortium and therefore it is not public.
