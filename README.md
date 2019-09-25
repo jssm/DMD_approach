@@ -38,3 +38,6 @@ The code is divided by main layer of software or programming language on which t
 
 ## Input files
 The input data files are not provided since the dataset belongs to the ENCALS consortium and therefore it is not public.
+
+## Author Information
+Joana Matos, Student MSc in Data Science @ FCUL and Student Researcher at LASIGE
