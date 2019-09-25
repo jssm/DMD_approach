@@ -2,8 +2,7 @@
 
 A new exploratory Data Mining methodology called Discriminative Meta-features Discovery (DMD) is proposed to find disease presentation patterns in two-dimensional Electronic Health Records (EHR) data. The implementation of that approach done for the thesis named "BICLUSTERING ELECTRONIC HEALTH RECORDS TO UNRAVEL DISEASE PRESENTATION PATTERNS" has been made available in this repository. 
 
-For more information please consult the Chapter 3 "Discriminative Meta-features Discovery" of said thesis.
-The images used in Chapter 4 "Discriminative Meta-features Discovery: A Case Study in the Portuguese ONWebDUALS dataset" were also made available (Thesis_Figures folder) for better visualization purposes.
+For more information about the DMD methodology please consult the Chapter 3 "Discriminative Meta-features Discovery" of said thesis. The images used in Chapter 4 "Discriminative Meta-features Discovery: A Case Study in the Portuguese ONWebDUALS dataset" were also made available (Thesis_Figures folder) for better visualization purposes. Moreover, the thesis appendices are available in the Thesis_Appendices folder.
 
 ## Motivation and Main Objective
 
